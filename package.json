@@ -1,0 +1,19 @@
+{
+  "name": "food-menu-app",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "this is a food menu app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "author": "anubhav kumar",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "msw": "^2.3.1",
+    "vite": "^5.3.1"
+  }
+}

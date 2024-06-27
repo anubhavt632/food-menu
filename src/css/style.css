@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(241, 241, 229);
+}
+#headerTitle {
+  text-align: center;
+  margin: 20px;
+  color: rgb(43, 43, 105);
+}
+#headerBar {
+  width: 7%;
+  margin: 0 auto;
+  border-top: 5px solid goldenrod;
+}
+#allButtons {
+  text-align: center;
+  margin: 20px;
+}
+.orderButton {
+  font-size: 14px;
+  font-weight: bold;
+  border: 2px solid goldenrod;
+  background-color: rgb(255, 249, 233);
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin-left: 10px;
+  display: flex;
+  margin-left: 74%;
+  cursor: pointer;
+  font-weight: bold;
+}
+.orderButton:hover {
+  background-color: rgb(253, 220, 135);
+}
+.categoryButton {
+  font-size: 16px;
+  border: 2px solid goldenrod;
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin-left: 10px;
+}
+.active {
+  background-color: rgb(253, 220, 135);
+}
+.categoryButton:hover {
+  background-color: rgb(253, 220, 135);
+  cursor: pointer;
+}
+#allDishes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 25px;
+}
+.dish {
+  display: flex;
+  width: 45%;
+  margin-bottom: 40px;
+}
+.dishInner {
+  display: flex;
+  justify-content: space-between;
+}
+.dish img {
+  object-fit: cover;
+  width: 40%;
+  margin-right: 20px;
+  border-radius: 10px;
+  border: 2px solid goldenrod;
+}
+.dishInner {
+  border-bottom: 2px dotted black;
+}
+.dishPrice {
+  color: goldenrod;
+}
+.dishName {
+  text-transform: capitalize;
+  font-weight: bold;
+}
+#cartButtonContainer {
+  text-align: center;
+  margin-top: 20px;
+}
+.cartDelete {
+  font-size: 20px;
+  border: 2px solid rgb(97, 97, 97);
+  border-radius: 10px;
+  background-color: rgb(0, 0, 0);
+  font-weight: bold;
+  color: rgb(255, 253, 253);
+  padding: 3px 10px;
+}
+.cartDelete:hover {
+  border: 2px solid rgb(247, 0, 0);
+
+  background-color: rgb(255, 0, 0);
+
+  color: rgb(255, 253, 253);
+}
+#cartButton {
+  font-size: 20px;
+  width: 5%;
+  border: 2px solid goldenrod;
+  border-radius: 10px;
+  background-color: white;
+  font-weight: bold;
+}
+#cartButton:hover {
+  background-color: rgb(253, 220, 135);
+}
+#cart {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cartDish img {
+  width: 20%;
+}
+.cartDish {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+}
+#cartTitle {
+  text-align: center;
+  margin: 20px;
+  color: rgb(36, 36, 93);
+}
